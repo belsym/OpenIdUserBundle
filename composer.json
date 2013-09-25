@@ -18,5 +18,10 @@
     "autoload": {
         "psr-0": { "WG\\OpenIdUserBundle": "" }
     },
-    "target-dir": "WG/OpenIdUserBundle"
+    "target-dir": "WG/OpenIdUserBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master":"dev"
+        }
+    }
 }
