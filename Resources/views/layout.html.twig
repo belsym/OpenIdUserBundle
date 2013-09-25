@@ -7,7 +7,7 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-        {% for key, message in app.session.getFlashes() %}
+        {% for key, message in app.session.getFlashBag().all() %}
         <div class="{{ key }}">
             {{ message|trans({}, 'FOSUserBundle') }}
         </div>
