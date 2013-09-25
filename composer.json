@@ -1,5 +1,5 @@
 {
-    "name": "writtengames/openid-user-bundle",
+    "name": "belsym/openid-user-bundle",
     "type": "symfony-bundle",
     "description": "Symfony WGOpenIdUserBundle",
     "keywords": ["FOSUserBundle", "FpOpenIdBundle"],
